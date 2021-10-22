@@ -1,0 +1,176 @@
+.rows{
+    display: flex;
+    flex-direction: column;
+}
+
+#index-container {
+    position: relative;
+    min-height: 100%;
+    background-image: url(../images/backgroundhome.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#signup-container {
+    position: relative;
+    min-height: 100%;
+    background-image: url(../images/khabibsub.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#events-container {
+    position: relative;
+    min-height: 100%;
+    background-image: url(../images/JonJonesDC.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#content-wrap{
+    padding-bottom: 2.5rem;
+
+}
+
+body{
+    background-color: hsl(0, 0%, 5%);
+    margin:0;
+}
+
+.navbar{
+    position: sticky;
+}
+
+.welcome { 
+    font-size:large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.searchbar {
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#indexmaincards{ padding: 20px; }
+
+.vscards{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+
+.signupCol{
+    padding: 10px;
+    
+}
+
+.field{
+    padding: 20px;
+    width: 100%;
+}
+
+.box{
+    background-color: hsla(0, 0%, 21%, 0.8);
+}
+
+.label{
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    height: 2.5rem;
+    background-color: hsl(0, 0%, 21%);
+    color: grey;
+}
+
+.input {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.icon {
+    font-weight: bold;
+}
+
+.noFade{
+    background: none;
+    color: white;
+}
+
+#nextEventTile{ padding: 0px; }
+
+#titlefightcol{
+    text-align: center;
+    width: 100%;
+}
+
+#maineventcol{
+    border-bottom:solid;
+    border-color: rgba(255, 0, 0, 0.603);
+}
+
+.nonmainevent{
+    border-bottom:solid;
+    border-color: rgba(255, 0, 0, 0.603);
+    margin: 10px;
+    height: 0%;
+}
+
+a { color: inherit; } 
+
+#eventsTable th{
+    color: white;
+    
+}
+
+#fighterATable th{
+    color: white;
+    
+}
+
+#fighterBTable th{
+    color: white;
+}
+
+.tabletext{
+    color: white;
+}
+
+#eventsTable td{
+    width: 50%;
+    color: white;
+    width: fit-content;
+}
+
+#eventsTable {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.fighterTitle{
+    display: inline-block;
+}
+
+html, body {
+    height:100%;
+    background-color: black;
+}
+
